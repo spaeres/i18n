@@ -64,7 +64,7 @@ const JobsList = (locale) => {
               <FormattedMessage id="City" />
             </th>
             <th scope="col" style={estilo}>
-              <FormattedMessage id="PublicationDate" />
+              <FormattedMessage id="Publication Date" />
             </th>
             <th scope="col" style={estilo}>
               <FormattedMessage id="Views" />
