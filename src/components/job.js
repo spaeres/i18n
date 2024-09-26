@@ -56,8 +56,9 @@ const Job = (props) => {
           <div>millones</div>
         )}
         {props.locale.locale === "es" && props.offer.salary === 1 && (
-          <div>millon</div>
+          <div>millón</div>
         )}
+        {props.locale.locale === "en" && <div>millon</div>}
       </td>
 
       <td>
